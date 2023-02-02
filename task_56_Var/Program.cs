@@ -17,12 +17,25 @@ int [,] GetRandomArray (int rowLength, int colLength, int start, int end)
     {
         for (int j = 0; j < colLength; j++)
         {
-            array[i, j] = new Random().Next(0, 100);
+            array[i, j] = new Random().Next(0, 10);
         }
     }
     return array;
 }
 int [,] Array = GetRandomArray (5, 5, 0, 100);
+void Printarray (int [,] Array)
+{
+    for (int i = 0; i < Array.GetLength(0); i++)
+    {
+        for (int j = 0; j < Array.GetLength(1); j++)
+        {
+            Console.Write($"{Array[i, j]}    ");
+        }
+        Console.WriteLine("    ");
+    }
+} 
+Printarray(Array);
+Printarray ()
 
 
 void Printarray (int [,] Array)
@@ -38,26 +51,24 @@ void Printarray (int [,] Array)
 } 
 Printarray(Array);
 
-int FindMaxSumInRow (int [,] Array)
+int GetMinSumRow (int [,] Array)
+{  
+    int rowSum= 0;
+    int rowNumber = 0;
+    int minSum = 
+for (int i = 0; i < Array.GetLength(0); i++)
 {
-int maxSum = 0;
-int row = 0;
-for (int j = 0; j < Array.GetLength(1); j++)
-{
- int temp = 0;   
-     for (int i = 0; i < Array.GetLength(0); i++)
-     {
-       tempSum = tempSum + Array(i,j);
-     }
-     if (tempSum > maxSum) 
-     {
-        maxSum = temp;  
-        row = j;
-     }
-}
-return row;
-}
-int maxRow = FindMaxSumInRow (Array);
+    for (int j = 0; j < Array.GetLength(1); j++)
+    {
+     rowSum = rowSum + Array [i,j];
+    } 
+    if (
 
-Console.WriteLine();  
-Console.WriteLine($"The minimum sum of the elements is in the row {maxRow}");
+    )
+
+    rowNumber = j;
+    Console.WriteLine($"Arithmetic average of the column is {rowNumber} "!);
+    
+}
+}
+GetMinSumRow(Array);

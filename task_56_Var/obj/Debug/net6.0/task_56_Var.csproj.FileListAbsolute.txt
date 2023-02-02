@@ -3,3 +3,13 @@ C:\Users\zhdanovы\Desktop\seminar_8\task_56_Var\obj\Debug\net6.0\task_56_Var.Ge
 C:\Users\zhdanovы\Desktop\seminar_8\task_56_Var\obj\Debug\net6.0\task_56_Var.AssemblyInfoInputs.cache
 C:\Users\zhdanovы\Desktop\seminar_8\task_56_Var\obj\Debug\net6.0\task_56_Var.AssemblyInfo.cs
 C:\Users\zhdanovы\Desktop\seminar_8\task_56_Var\obj\Debug\net6.0\task_56_Var.csproj.CoreCompileInputs.cache
+C:\Users\zhdanovы\Desktop\seminar_8\task_56_Var\bin\Debug\net6.0\task_56_Var.exe
+C:\Users\zhdanovы\Desktop\seminar_8\task_56_Var\bin\Debug\net6.0\task_56_Var.deps.json
+C:\Users\zhdanovы\Desktop\seminar_8\task_56_Var\bin\Debug\net6.0\task_56_Var.runtimeconfig.json
+C:\Users\zhdanovы\Desktop\seminar_8\task_56_Var\bin\Debug\net6.0\task_56_Var.dll
+C:\Users\zhdanovы\Desktop\seminar_8\task_56_Var\bin\Debug\net6.0\task_56_Var.pdb
+C:\Users\zhdanovы\Desktop\seminar_8\task_56_Var\obj\Debug\net6.0\task_56_Var.dll
+C:\Users\zhdanovы\Desktop\seminar_8\task_56_Var\obj\Debug\net6.0\refint\task_56_Var.dll
+C:\Users\zhdanovы\Desktop\seminar_8\task_56_Var\obj\Debug\net6.0\task_56_Var.pdb
+C:\Users\zhdanovы\Desktop\seminar_8\task_56_Var\obj\Debug\net6.0\task_56_Var.genruntimeconfig.cache
+C:\Users\zhdanovы\Desktop\seminar_8\task_56_Var\obj\Debug\net6.0\ref\task_56_Var.dll

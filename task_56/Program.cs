@@ -1,14 +1,11 @@
-﻿/*Задача 56: Задайте прямоугольный двумерный массив. 
-Напишите программу, которая будет находить строку с
-наименьшей суммой элементов.
-Например, задан массив:
-1 4 7 2
-5 9 2 3
-8 4 2 4
-5 2 6 7
-Программа считает сумму элементов в каждой строке 
-и выдаёт номер строки с наименьшей суммой элементов: 1 строка
-*/
+﻿//task 56: Create a rectangular 2-dimension array
+// Program, which finds the row with the minimum sum of elements 
+// 1 4 7 2
+// 5 9 2 3
+//8 4 2 4
+//5 2 6 7
+// the first row 
+
 int [,] GetRandomArray (int rowLength, int colLength, int start, int end)
 {
     
@@ -17,12 +14,12 @@ int [,] GetRandomArray (int rowLength, int colLength, int start, int end)
     {
         for (int j = 0; j < colLength; j++)
         {
-            array[i, j] = new Random().Next(0, 100);
+            array[i, j] = new Random().Next(0, 10);
         }
     }
     return array;
 }
-int [,] Array = GetRandomArray (5, 5, 0, 100);
+int [,] Array = GetRandomArray (5, 5, 0, 10);
 
 
 void Printarray (int [,] Array)
@@ -43,25 +40,25 @@ int FindMinSumRow (int [,] Array)
     {
       int row = 0;
       int minSum = 0;
-      for (int i = 0; i < Array.GetLength(1); i++)
+      for (int i = 0; i < Array.GetLength(0); i++)
         {
             minSum = minSum + Array[0,i];
         }
       for (int i = 1; i < Array.GetLength(0); i++)
         {
-            int sumNum = 0;
+            int tempSum = 0;
             for (int j = 0; j < Array.GetLength(1); j++)
               {
-                 sumNum = sumNum + Array[i,j];
+                 tempSum = tempSum + Array[i,j];
               }
-            if (minSum > sumNum)
+            if (minSum > tempSum)
                {
-                  minSum = sumNum;
+                  minSum = tempSum;
                   row = i;
                }
         }
         return row;
     }
-int result = FindMinSumRow(Array);
+int minRow = FindMinSumRow(Array);
 Console.WriteLine();  
-Console.WriteLine($"The minimum sum of the elements is in the row {result}");
+Console.WriteLine($"The minimum sum of the elements is in the row {minRow}");
