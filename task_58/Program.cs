@@ -1,4 +1,5 @@
 ﻿// task 56. Program which finds multiplication of 2 arrays
+//
 
 int [,] GetFirstArray (int rowLength, int colLength, int start, int end)
 {
@@ -30,10 +31,11 @@ int [,] GetSecondArray (int rowLength, int colLength, int start, int end)
 }
 int [,] secondArray = GetSecondArray (5, 5, 0, 10);
 
-int[,] resultArray = new int[5, 5]; 
 
+int[,] resultArray = new int[5, 5]; 
 void MultiplyArrays(int[,] firstArray, int[,] secondArray)
 {
+
   for (int i = 0; i < resultArray.GetLength(0); i++)
   {
     for (int j = 0; j < resultArray.GetLength(1); j++)

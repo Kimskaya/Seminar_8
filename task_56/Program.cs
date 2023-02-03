@@ -59,6 +59,29 @@ int FindMinSumRow (int [,] Array)
         }
         return row;
     }
-int minRow = FindMinSumRow(Array);
+    int minRow = FindMinSumRow(Array);
+
+    int FindMinSum (int [,] Array)
+    {
+      int minSum = 0;
+      for (int i = 0; i < Array.GetLength(0); i++)
+        {
+            minSum = minSum + Array[0,i];
+        }
+      for (int i = 1; i < Array.GetLength(0); i++)
+        {
+            int tempSum = 0;
+            for (int j = 0; j < Array.GetLength(1); j++)
+              {
+                 tempSum = tempSum + Array[i,j];
+              }
+            if (minSum > tempSum)
+               {
+                  minSum = tempSum;
+               }
+        }
+        return minSum;
+    }
+int minSum = FindMinSum(Array);
 Console.WriteLine();  
-Console.WriteLine($"The minimum sum of the elements is in the row {minRow}");
+Console.WriteLine($"The minimum sum of the elements equals {minSum} and is in the row {minRow+1}");
