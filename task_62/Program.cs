@@ -10,15 +10,15 @@ int temp = 1;
 int i = 0;
 int j = 0;
 
-while (temp <= array.GetLength(0) * array.GetLength(1))
+while (temp <= array.GetLength(0) * 4)
 {
   array[i, j] = temp;
   temp++;
-  if (i <= j + 1 && i + j < array.GetLength(1) - 1)
+  if (i <= j && i<4 )
     j++;
-  else if (i < j && i + j >= array.GetLength(0) - 1)
+  else if (i < j&& <4 )
     i++;
-  else if (i >= j && i + j > array.GetLength(1) - 1)
+  else if (i >= j)
     j--;
   else
     i--;
@@ -31,10 +31,8 @@ void PrintArray (int[,] array)
   {
     for (int j = 0; j < array.GetLength(1); j++)
     {
-      if (array[i,j] / 10 <= 0)
-      Console.Write($" {array[i,j]} ");
 
-      else Console.Write($"{array[i,j]} ");
+      Console.Write($" {array[i,j]} ");
     }
     Console.WriteLine();
   }
