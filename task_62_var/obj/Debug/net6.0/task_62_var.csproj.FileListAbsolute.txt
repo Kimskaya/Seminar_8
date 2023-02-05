@@ -1,0 +1,15 @@
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\obj\Debug\net6.0\task_62_var.csproj.AssemblyReference.cache
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\obj\Debug\net6.0\task_62_var.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\obj\Debug\net6.0\task_62_var.AssemblyInfoInputs.cache
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\obj\Debug\net6.0\task_62_var.AssemblyInfo.cs
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\obj\Debug\net6.0\task_62_var.csproj.CoreCompileInputs.cache
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\bin\Debug\net6.0\task_62_var.exe
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\bin\Debug\net6.0\task_62_var.deps.json
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\bin\Debug\net6.0\task_62_var.runtimeconfig.json
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\bin\Debug\net6.0\task_62_var.dll
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\bin\Debug\net6.0\task_62_var.pdb
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\obj\Debug\net6.0\task_62_var.dll
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\obj\Debug\net6.0\refint\task_62_var.dll
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\obj\Debug\net6.0\task_62_var.pdb
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\obj\Debug\net6.0\task_62_var.genruntimeconfig.cache
+C:\Users\zhdanovы\Desktop\seminar_8\task_62_var\obj\Debug\net6.0\ref\task_62_var.dll

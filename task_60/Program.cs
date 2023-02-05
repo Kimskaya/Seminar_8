@@ -1,4 +1,4 @@
-﻿//Задача 60. ...Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. 
+﻿//Задача 60.Create 3 D array out of й массив из неповторяющихся двузначных чисел. 
 //Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
 //Массив размером 2 x 2 x 2
 //66(0,0,0) 25(0,1,0)
@@ -18,14 +18,14 @@ int [,,] GetRandomArray (int rowLength, int colLength, int depLength, int start,
         {
             for (int r = 0; r < depLength; r++)
             {
-              array[i, j, r] = new Random().Next(0, 10);  
+              array[i, j, r] = new Random().Next(0, 99);  
             }
             
         }
     }
     return array;
 }
-int [,,] Array = GetRandomArray (2, 2, 2,0, 10);
+int [,,] Array = GetRandomArray (2, 2, 2,0, 99);
 
 void Printarray (int [,,] Array)
 {
